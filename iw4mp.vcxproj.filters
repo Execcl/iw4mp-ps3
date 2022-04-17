@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="prx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="timers.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="game_component.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game_functions.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_base.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_item.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_tab.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="cellpad.cpp">
+      <Filter>src\utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{be230057-a1dc-4251-9138-3d09a6c26690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\head">
+      <UniqueIdentifier>{21de2b28-7798-445f-9e15-bac48a1fba65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{5e0dc11a-5747-4942-8791-3806f6451067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\head">
+      <UniqueIdentifier>{cf389d6b-82c9-4499-9a0e-01fb4272c9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities">
+      <UniqueIdentifier>{cf7fee78-a644-4ec3-879d-b077f8bb7e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utilities\head">
+      <UniqueIdentifier>{6863dd68-ffd2-43b0-9dd0-5fff8be9cc90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu">
+      <UniqueIdentifier>{e532260d-6343-4cba-8fa2-1864eff6637c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu\head">
+      <UniqueIdentifier>{f8e6822a-8899-4454-a1e7-7af944968a80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src\head</Filter>
+    </ClInclude>
+    <ClInclude Include="timers.h">
+      <Filter>src\utilities\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_calls.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_structures.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_component.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_table.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="game_functions.h">
+      <Filter>src\game\head</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>src\menu\head</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_base.h">
+      <Filter>src\menu\head</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_item.h">
+      <Filter>src\menu\head</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_tab.h">
+      <Filter>src\menu\head</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>src\head</Filter>
+    </ClInclude>
+    <ClInclude Include="cellpad.h">
+      <Filter>src\utilities\head</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_designs.h">
+      <Filter>src\menu\head</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
